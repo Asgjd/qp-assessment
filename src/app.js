@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const winston = require('winston');
 const expressWinston = require('express-winston');
-const exampleRoutes = require('./routes/apiRoutes');
+const Routes = require('./routes/apiRoutes');
 
 const app = express();
 
@@ -54,7 +54,7 @@ app.use(expressWinston.logger({
 }));
 
 // Routes
-app.use('/api/example', exampleRoutes);
+app.use('/api', Routes);
 
 // Error logging
 app.use(expressWinston.errorLogger({

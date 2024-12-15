@@ -12,14 +12,7 @@ module.exports = {
       const existingItem = await __dbo.GroceryItemFindByName(name);
   
       if (existingItem) {
-        // If the item exists, update its values
-        // const updatedItem = await __dbo.GroceryItemUpdate(name, { price, description, inventoryCount });
         return res.status(500).json({ error: "Item already exist" });
-
-        if (!updatedItem) {
-          return res.status(500).json({ error: "Failed to update item" });
-        }
-        return res.status(200).json({ message: "Item updated successfully", item: updatedItem });
       }
   
       // If the item does not exist, create a new item
