@@ -1,0 +1,12 @@
+{"level":"info","message":"::1 - - [15/Dec/2024:08:41:13 +0000] \"POST /api/example/add/grocery-items HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:41:13.963Z"}
+{"level":"info","message":"POST /api/example/add/grocery-items - 201 [529ms]","timestamp":"2024-12-15T08:41:13.968Z"}
+{"level":"info","message":"::1 - - [15/Dec/2024:08:41:30 +0000] \"GET /api/example/view/grocery-items?isAdmin=true HTTP/1.1\" 200 108 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:41:30.209Z"}
+{"level":"info","message":"GET /api/example/view/grocery-items?isAdmin=true - 200 [41ms]","timestamp":"2024-12-15T08:41:30.210Z"}
+{"level":"info","message":"::1 - - [15/Dec/2024:08:41:40 +0000] \"GET /api/example/view/grocery-items HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:41:40.597Z"}
+{"level":"info","message":"GET /api/example/view/grocery-items - 200 [13ms]","timestamp":"2024-12-15T08:41:40.598Z"}
+{"level":"info","message":"::1 - - [15/Dec/2024:08:41:56 +0000] \"POST /api/example/add/grocery-items HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:41:56.943Z"}
+{"level":"info","message":"POST /api/example/add/grocery-items - 201 [44ms]","timestamp":"2024-12-15T08:41:56.943Z"}
+{"level":"info","message":"::1 - - [15/Dec/2024:08:42:00 +0000] \"GET /api/example/view/grocery-items HTTP/1.1\" 200 110 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:42:00.841Z"}
+{"level":"info","message":"GET /api/example/view/grocery-items - 200 [10ms]","timestamp":"2024-12-15T08:42:00.842Z"}
+{"level":"info","message":"::1 - - [15/Dec/2024:08:42:04 +0000] \"POST /api/example/add/grocery-items HTTP/1.1\" 500 30 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2024-12-15T08:42:04.395Z"}
+{"level":"info","message":"POST /api/example/add/grocery-items - 500 [11ms]","timestamp":"2024-12-15T08:42:04.396Z"}
